@@ -4,17 +4,18 @@ public class JardinBotanico implements EspacioCultural {
 
     @Override
     public void mostrarHorario() {
-        System.out.println("El horario del Jardín Botánico es de 9:00 a.m. a 5:00 p.m.");
+        System.out.println("Lugar: Jardín Botánico");
+        System.out.println("Horario: 9:00 AM - 4:30 PM");
     }
 
     @Override
     public String obtenerRequisitoEntrada() {
-        return "La entrada al Jardín Botánico es gratuita para niños menores de 12 años.";
-    }
+        return "Entrada libre (algunos eventos requieren registro)";
+     }
 
     @Override
     public void realizarActividadPrincipal() {
-        System.out.println("La actividad principal del Jardín Botánico es la exhibición de una gran variedad de plantas y flores.");
+        System.out.println("Actividad: Caminando por el bosque tropical...");
     }
 
 }
